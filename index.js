@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const iconElement = document.querySelector("#current-icon");
   const tempElement = document.querySelector("#current-temp");
 
-  const apiKey = "a51080bdbdacb62b8bf02a76b3eb9b72"; 
-  const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
+  const apiKey = "2c95a04203o5bat4acd327d7c89f7e04"; 
+  const apiUrl = "https://api.shecodes.io/weather/v1/current?query={query}&key={key}";
 
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
